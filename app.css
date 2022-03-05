@@ -16,6 +16,7 @@ button {
   #game {
     background-image: url('https://s3.amazonaws.com/instaannie.icons/33664029_268070993736561_1712393917497868288_n.png');
     background-repeat: repeat;
+    height: 100vh;
   }
   
   #board {
