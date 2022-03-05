@@ -1,0 +1,79 @@
+/* font-family: 'Allerta Stencil', sans-serif; */
+
+/* body {
+  background-image: 'https://www.gophersport.com/cmsstatic/img/245/G-11048-PopularBoardGames-ce-2-clean.jpg?medium' ;
+
+} */
+
+button {
+    width: 150 px;
+    margin-top: 100px;
+    margin-left: 42%;
+    margin-bottom: 100px;
+    font-size: 1.5em;
+  }
+  
+  #game {
+    background-image: url('https://s3.amazonaws.com/instaannie.icons/33664029_268070993736561_1712393917497868288_n.png');
+    background-repeat: repeat;
+  }
+  
+  #board {
+    background-color: #DEC20B;
+    margin-left: 33%;
+    margin-top: 100px;
+  
+  }
+  
+  h1 {
+    font-family: 'Allerta Stencil', sans-serif;
+    font-size: 5em;
+    margin-top: 0;
+    margin-bottom: 50px;
+    padding-left: 30%;
+    color: aliceblue;
+    text-shadow: 4px 3px 0px #000, 9px 8px 0px rgba(0,0,0,0.15);
+  }
+  
+  /* game board table */
+  
+  #board td {
+    width: 70px;
+    height: 70px;
+    border: double 2px #666;
+    border-radius: 50%;
+  }
+  
+  /* pieces are div within game table cells: draw as colored circles */
+  
+  .piece {
+    /* TODO: make into circles */
+    margin: 1px;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    padding: 2px;
+  }
+  
+  /* TODO: make pieces red/blue,  depending on player 1/2 piece */
+  
+  /* red */
+  .piece.p1 {
+    background-color: red;
+  }
+  /* blue */
+  .piece.p2 {
+    background-color: blue;
+  }
+  /* column-top is table row of clickable areas for each column */
+  
+  #column-top td {
+    border: dashed 1px lightgray;
+  }
+  
+  #column-top td:hover {
+    background-color: rgb(0, 255, 13);
+  }
+  
+  
+  
